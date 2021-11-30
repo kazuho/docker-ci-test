@@ -9,6 +9,6 @@ outputs:
     description: "blah"
 runs:
   using: "docker"
-  image "Dockerfile"
+  image: "Dockerfile"
   args:
     - ${{ inputs.who-to-greet }}
